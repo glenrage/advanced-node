@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/glenrage/advanced-node/issues"
   },
-  "homepage": "https://github.com/glenrage/advanced-node#readme"
+  "homepage": "https://github.com/glenrage/advanced-node#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "prettier": "^1.11.1"
+  }
 }
