@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/glenrage/advanced-node#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
     "prettier": "^1.11.1"
   }
 }
