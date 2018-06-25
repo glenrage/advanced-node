@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Toggle from './Toggle';
+import Toggle from './ToggleRenderProps';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1> hello </h1>
-        <Toggle>
-          <h1>fuck</h1>
-        </Toggle>
+        <Toggle
+          render={({ on, toggle }) => (
+            <div>
+              {on && <h1>Show Me</h1>}
+
+              <button onClick={toggle}> Show / Hide </button>
+            </div>
+          )}
+        />
       </div>
     );
   }
