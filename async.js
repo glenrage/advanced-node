@@ -12,11 +12,3 @@ function doRequest() {
     })
     .end();
 }
-
-doRequest();
-doRequest();
-doRequest();
-doRequest();
-doRequest();
-doRequest();
-doRequest();
